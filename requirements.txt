@@ -1,0 +1,12 @@
+Django
+djangorestframework
+djangorestframework-jwt
+boto3
+django-storages
+requests
+django-crontab
+pyfcm
+psycopg2
+psycopg2-binary
+django-debug-toolbar
+termcolor

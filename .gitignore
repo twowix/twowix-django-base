@@ -1,0 +1,5 @@
+.idea/*
+*.pyc
+venv/*
+frontend/static/*
+config/common/env.json

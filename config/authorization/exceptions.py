@@ -1,7 +1,7 @@
 from rest_framework.views import exception_handler
 from rest_framework import exceptions
 from rest_framework.response import Response
-from config.common.common_library import *
+from config.common.library import *
 from rest_framework import status
 
 

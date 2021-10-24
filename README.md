@@ -2,7 +2,7 @@
 - config/common/env.json
 - env format
 
-'''
+```
 {
   "development": {
     "SECRET_KEY": "12345123451234512345123451234512354123512351235123",
@@ -34,7 +34,7 @@
     ...
   }
 }
-'''
+```
 
 #### REQUIREMENT CONFIG
 - config/common/scripts/requirements.txt

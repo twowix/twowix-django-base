@@ -10,8 +10,6 @@ STATUS_RSP_UNAUTHORIZED = 4001
 STATUS_RSP_INVALID_PARAM = 4002
 STATUS_RSP_MISSING_MANDATORY_PARAM = 4003
 
-# USER ERROR
-
 _code_to_message = {
     # SUCCESS
     STATUS_RSP_SUCCESS: 'success',
@@ -21,9 +19,7 @@ _code_to_message = {
     STATUS_RSP_INTERNAL_ERROR: 'internal server error',
     STATUS_RSP_UNAUTHORIZED: 'unauthorized',
     STATUS_RSP_INVALID_PARAM: 'invalid parameter',
-    STATUS_RSP_MISSING_MANDATORY_PARAM: 'missing mandatory parameter',
 
-    # USER ERROR
 }
 
 

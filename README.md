@@ -1,40 +1,5 @@
 #### ENV CONFIG (DATABASE, SECRET_KEY, ...)
-- config/common/env.json
-- env format
-
-```
-{
-  "development": {
-    "SECRET_KEY": "12345123451234512345123451234512354123512351235123",
-    "DATABASES": {
-      "default": {
-        "ENGINE": "",
-        "NAME": "",
-        "USER": "",
-        "PASSWORD": "",
-        "HOST": "",
-        "PORT": ""
-      }
-    }
-    ...
-  },
-
-  "product": {
-    "SECRET_KEY": "12345123451234512345123451234512354123512351235123",
-    "DATABASES": {
-      "default": {
-        "ENGINE": "",
-        "NAME": "",
-        "USER": "",
-        "PASSWORD": "",
-        "HOST": "",
-        "PORT": ""
-      }
-    }
-    ...
-  }
-}
-```
+- config/common/env.json (실제 사용 시 에는 .gitignore 필수!!)
 
 #### REQUIREMENT CONFIG
 - config/common/scripts/requirements.txt
@@ -59,8 +24,6 @@
 ##### Development
 - django-debug-toolbar [DEBUG]
 
----
-### TODO
-1. AWS - S3 Connection
-2. FCM - PUSH Library
-3. ...
+
+##### 사용 환경변수
+- SERVER_ENV (local, develop, product)
